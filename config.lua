@@ -4,7 +4,7 @@ Config = {}
 
 Config.Debug = false
 
-Config.ClothingScript = 'illenium-appearance' -- 'illenium-appearance', 'fivem-appearance' ,'core' or false -- to disable
+Config.ClothingScript = 'core' -- 'illenium-appearance', 'fivem-appearance' ,'core' or false -- to disable
 Config.PrisonSystem = 'pickle_prisons'        -- 'pickle_prisons', 'esx-qalle-jail'
 Config.ItemCuffs = "handcuffs"                -- name of the item cuffs
 Config.CanBreakCuffs = true                   -- to use this function follow the installation
@@ -60,7 +60,7 @@ Config.PoliceStations = {
 			storage = {
 				stashId = 'podsalice_armory_storage',
 				stashLabel = 'LSPD Armory Storage',
-				minGradeAccess = 2,
+				minGradeAccess = 0,
 			},
 			equipment = {
 				[1] = {
@@ -112,7 +112,7 @@ Config.PoliceStations = {
 					{
 						label = 'Police 2',
 						spawn_code = 'police2',
-						min_grade = 2,
+						min_grade = 0,
 						modifications = {}
 					},
 				}
