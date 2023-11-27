@@ -74,8 +74,8 @@ Config.PoliceStations = {
 						},
 					},
 					{
-						item = 'weapon_assaultrifle',
-						label = 'Rifle',
+						item = 'weapon_carbinerifle',
+						label = 'Carbine Rifle',
 						quantity = 1,
 						prop = {
 							model = 'w_ar_carbinerifle',
@@ -88,6 +88,105 @@ Config.PoliceStations = {
 						quantity = 5,
 						prop = {
 							model = 'prop_ld_flow_bottle',
+							placePos = vector3(453.24318450195, -979.99542724609 - 0.1, 30.615884399414),
+						},
+					},
+					{
+						item = 'radio',
+						label = 'Radio',
+						quantity = 1,
+						prop = {
+							model = 'w_pi_pistol',
+							placePos = vector3(453.24318450195, -979.99542724609 - 0.1, 30.615884399414),
+						},
+					},
+					{
+						item = 'handcuffs',
+						label = 'Handcuffs',
+						quantity = 5,
+						prop = {
+							model = 'w_pi_pistol',
+							placePos = vector3(453.24318450195, -979.99542724609 - 0.1, 30.615884399414),
+						},
+					},
+					{
+						item = 'heavyarmor',
+						label = 'Heavy Armor',
+						quantity = 5,
+						prop = {
+							model = 'w_pi_pistol',
+							placePos = vector3(453.24318450195, -979.99542724609 - 0.1, 30.615884399414),
+						},
+					},
+					{
+						item = 'weapon_taser',
+						label = 'Taser',
+						quantity = 1,
+						prop = {
+							model = 'w_pi_pistol',
+							placePos = vector3(453.24318450195, -979.99542724609 - 0.1, 30.615884399414),
+						},
+					},
+					{
+						item = 'weapon_pumpshotgub',
+						label = 'Pump Shotgun',
+						quantity = 1,
+						prop = {
+							model = 'w_pi_pistol',
+							placePos = vector3(453.24318450195, -979.99542724609 - 0.1, 30.615884399414),
+						},
+					},
+					{
+						item = 'pistol_ammo',
+						label = 'Pistol Ammo',
+						quantity = 25,
+						prop = {
+							model = 'w_pi_pistol',
+							placePos = vector3(453.24318450195, -979.99542724609 - 0.1, 30.615884399414),
+						},
+					},
+					{
+						item = 'stungun_ammo',
+						label = 'Taser Ammo',
+						quantity = 25,
+						prop = {
+							model = 'w_pi_pistol',
+							placePos = vector3(453.24318450195, -979.99542724609 - 0.1, 30.615884399414),
+						},
+					},
+					{
+						item = 'shotgun_ammo',
+						label = 'Shotgun Ammo',
+						quantity = 25,
+						prop = {
+							model = 'w_pi_pistol',
+							placePos = vector3(453.24318450195, -979.99542724609 - 0.1, 30.615884399414),
+						},
+					},
+					{
+						item = 'rifle_ammo',
+						label = 'Rifle Ammo',
+						quantity = 25,
+						prop = {
+							model = 'w_pi_pistol',
+							placePos = vector3(453.24318450195, -979.99542724609 - 0.1, 30.615884399414),
+						},
+					},
+					{
+						item = 'weapon_colbaton',
+						label = 'Baton',
+						quantity = 1,
+						prop = {
+							model = 'w_pi_pistol',
+							placePos = vector3(453.24318450195, -979.99542724609 - 0.1, 30.615884399414),
+						},
+					},
+					{
+						item = 'weapon_flashlight',
+						label = 'Flashlight',
+						quantity = 1,
+						prop = {
+							model = 'w_pi_pistol',
 							placePos = vector3(453.24318450195, -979.99542724609 - 0.1, 30.615884399414),
 						},
 					},
