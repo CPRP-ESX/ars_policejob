@@ -4,7 +4,7 @@ Config = {}
 
 Config.Debug = false
 
-Config.ClothingScript = 'core' -- 'illenium-appearance', 'fivem-appearance' ,'core' or false -- to disable
+Config.ClothingScript = 'fivem-appearance' -- 'illenium-appearance', 'fivem-appearance' ,'core' or false -- to disable
 Config.PrisonSystem = 'pickle_prisons'        -- 'pickle_prisons', 'esx-qalle-jail'
 Config.ItemCuffs = "handcuffs"                -- name of the item cuffs
 Config.CanBreakCuffs = true                   -- to use this function follow the installation
