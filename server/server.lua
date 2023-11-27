@@ -7,6 +7,7 @@ local function convertGroupsToStashFormat(groupsArray, minGrade)
     return stashGroups
 end
 
+TriggerEvent('esx_society:registerSociety', 'police', 'police', 'society_police', 'society_police', 'society_police', {type = 'private'})
 
 CreateThread(function()
     for index, station in pairs(Config.PoliceStations) do
